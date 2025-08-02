@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project specific
+*.log
+output/
+temp/
+cache/
+exports/
+test_data/
+*.tmp
+
+# Large files
+*.psd
+*.ai
+*.sketch
+*.fig
+
+# Sensitive data
+config.json
+secrets.json
+.env
+.env.local
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
